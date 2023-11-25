@@ -1,5 +1,6 @@
 <h1 align="center">Hi 👋, I'm Prabal Khare</h1>
 <h3 align="center">A passionate robotics engineer from India</h3>
+<img align="right" alt="Coding" width="400" src="[https://cdn.dribbble.com/users/116207...](https://cdn.pixabay.com/animation/2023/04/12/16/59/16-59-39-387_512.gif)">
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=00prabalk00&label=Profile%20views&color=0e75b6&style=flat" alt="00prabalk00" /> </p>
 
