@@ -4,8 +4,6 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=00prabalk00&label=Profile%20views&color=0e75b6&style=flat" alt="00prabalk00" /> </p>
 
-- 🔭 I’m currently working on [EVTOL](http://surl.li/noaph)
-
 - 👨‍💻 All of my projects are available at [https://www.linkedin.com/in/prabalk/](https://www.linkedin.com/in/prabalk/)
 
 - 💬 Ask me about **Robotics**
