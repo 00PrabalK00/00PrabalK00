@@ -1,7 +1,7 @@
-[![MasterHead](https://1.bp.blogspot.com/-7A4WynwLsM...)](https://rishavchanda.io)
+[![MasterHead](https://1.bp.blogspot.com/-7A4WynwLsM...)](https://github.com/00PrabalK00)
 <h1 align="center">Hi 👋, I'm Prabal Khare</h1>
 <h3 align="center">A passionate robotics engineer from India</h3>
-<img align="right" alt="Coding" width="400" src="[https://cdn.dribbble.com/users/116207...](https://cdn.pixabay.com/animation/2023/04/12/16/59/16-59-39-387_512.gif)">
+<img align="right" alt="Coding" width="400" src="[[https://cdn.dribbble.com/users/116207...](https://cdn.pixabay.com/animation/2023/04/12/16/59/16-59-39-387_512.gif)](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExenRxd3A2dnJ4dXJzM2d0dGI3NmlmcmZzaHBqb3E1b3VtMXU2dGNhdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/mFDWuDppjQJjite6FS/giphy.gif)">
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=00prabalk00&label=Profile%20views&color=0e75b6&style=flat" alt="00prabalk00" /> </p>
 
