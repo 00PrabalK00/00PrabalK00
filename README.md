@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Prabal Khare</h1>
-<h3 align="center">A passionate robotics engineer from India</h3>
+<h3 align="center">A Passionate Robotics Entusiast From India</h3>
 <img align="right" alt="Coding" width="400" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExenRxd3A2dnJ4dXJzM2d0dGI3NmlmcmZzaHBqb3E1b3VtMXU2dGNhdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/mFDWuDppjQJjite6FS/giphy.gif">
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=00prabalk00&label=Profile%20views&color=0e75b6&style=flat" alt="00prabalk00" /> </p>
