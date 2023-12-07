@@ -19,7 +19,7 @@
 <a href="https://twitter.com/xficuz" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="xficuz" height="30" width="40" /></a>
 <a href="https://linkedin.com/in/prabalk" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="prabalk" height="30" width="40" /></a>
 <a href="https://instagram.com/xdzuci" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="xdzuci" height="30" width="40" /></a>
-<a href="https://www.hackerrank.com/beatlestedhr" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="beatlestedhr" height="30" width="40" /></a>
+<a href="https://www.hackerrank.com/00PrabalK00" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="beatlestedhr" height="30" width="40" /></a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
