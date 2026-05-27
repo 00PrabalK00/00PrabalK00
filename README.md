@@ -8,7 +8,7 @@ Robotics Engineer • Autonomous Systems • Perception • Embedded Systems
 Building real-world robotic systems across ground, aerial, and underwater platforms
 </p>
 
-<p>
+<p align="center">
   <img src="https://komarev.com/ghpvc/?username=00prabalk00&label=Profile%20Views&color=0e75b6&style=flat" />
 </p>
 
