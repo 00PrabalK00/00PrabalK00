@@ -1,9 +1,18 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/00PrabalK00/00PrabalK00/6d8354828b17a05147ff1605a579da1582189486/dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/00PrabalK00/00PrabalK00/c78750655a277640b944491af17a18bf79e43cfa/light.svg">
-    <img alt="Animated robotics profile banner for Prabal Khare" src="https://raw.githubusercontent.com/00PrabalK00/00PrabalK00/c78750655a277640b944491af17a18bf79e43cfa/light.svg" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/00PrabalK00/00PrabalK00/faeb756c4726c6e90dd87df2f75b472d8c90adc8/dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/00PrabalK00/00PrabalK00/711fc165f33b4eede65680d6d78ebc9777f7eb9c/light.svg">
+    <img alt="Animated robotics profile banner for Prabal Khare" src="https://raw.githubusercontent.com/00PrabalK00/00PrabalK00/711fc165f33b4eede65680d6d78ebc9777f7eb9c/light.svg" width="100%">
   </picture>
+</p>
+
+<p align="center">
+  <a href="https://raw.githubusercontent.com/00PrabalK00/00PrabalK00/faeb756c4726c6e90dd87df2f75b472d8c90adc8/dark.svg">
+    <img alt="Preview dark banner" src="https://img.shields.io/badge/Preview-Dark-0d1117?style=flat-square&logo=github&logoColor=white">
+  </a>
+  <a href="https://raw.githubusercontent.com/00PrabalK00/00PrabalK00/711fc165f33b4eede65680d6d78ebc9777f7eb9c/light.svg">
+    <img alt="Preview light banner" src="https://img.shields.io/badge/Preview-Light-f6f8fa?style=flat-square&logo=github&logoColor=1f2328">
+  </a>
 </p>
 
 <h1 align="center">Prabal Khare</h1>
