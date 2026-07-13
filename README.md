@@ -1,8 +1,8 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/00PrabalK00/00PrabalK00/0a6ac65515a7cede5018ad09c689bace696a787f/dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/00PrabalK00/00PrabalK00/96a797120c18c66c3578012acab5167ec47ac418/light.svg">
-    <img alt="Animated robotics profile banner for Prabal Khare" src="https://raw.githubusercontent.com/00PrabalK00/00PrabalK00/96a797120c18c66c3578012acab5167ec47ac418/light.svg" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/00PrabalK00/00PrabalK00/6d8354828b17a05147ff1605a579da1582189486/dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/00PrabalK00/00PrabalK00/c78750655a277640b944491af17a18bf79e43cfa/light.svg">
+    <img alt="Animated robotics profile banner for Prabal Khare" src="https://raw.githubusercontent.com/00PrabalK00/00PrabalK00/c78750655a277640b944491af17a18bf79e43cfa/light.svg" width="100%">
   </picture>
 </p>
 
