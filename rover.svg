@@ -1,0 +1,190 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220" role="img" aria-labelledby="rtitle rdesc">
+  <title id="rtitle">Autonomous rover traversing the profile banner</title>
+  <desc id="rdesc">An animated mobile robot with a rotating LiDAR, articulated manipulator and driven wheels crossing the full width of the banner, while a signal pulse runs the whole perimeter.</desc>
+
+  <defs>
+    <linearGradient id="rShell" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a0f14"/>
+      <stop offset="1" stop-color="#101a20"/>
+    </linearGradient>
+    <linearGradient id="rEdge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2ee59d" stop-opacity="0.7"/>
+      <stop offset="0.5" stop-color="#6bb8ff" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#2ee59d" stop-opacity="0.7"/>
+    </linearGradient>
+    <linearGradient id="rBody" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1b2b33"/>
+      <stop offset="1" stop-color="#0c141a"/>
+    </linearGradient>
+    <radialGradient id="rCone" cx="0" cy="0" r="1">
+      <stop offset="0" stop-color="#48e6a7" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#48e6a7" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="rGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="rClip"><rect x="6" y="6" width="1188" height="208" rx="22"/></clipPath>
+    <path id="rPerimeter" d="M 28 6 H 1172 A 22 22 0 0 1 1194 28 V 192 A 22 22 0 0 1 1172 214 H 28 A 22 22 0 0 1 6 192 V 28 A 22 22 0 0 1 28 6 Z"/>
+    <style>
+      text { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; }
+      .hud { fill: #6d838d; font-size: 12px; letter-spacing: 2px; }
+      .hudx { fill: #48e6a7; font-size: 12px; letter-spacing: 2px; }
+    </style>
+  </defs>
+
+  <rect x="6" y="6" width="1188" height="208" rx="22" fill="url(#rShell)" stroke="url(#rEdge)" stroke-width="1.5"/>
+
+  <g clip-path="url(#rClip)">
+    <!-- background grid -->
+    <g opacity="0.5" stroke="#1a2830" stroke-width="1">
+      <path d="M0 50H1200M0 100H1200M0 150H1200"/>
+      <g>
+        <animateTransform attributeName="transform" type="translate" from="0 0" to="-60 0" dur="3s" repeatCount="indefinite"/>
+        <path d="M0 0V220M60 0V220M120 0V220M180 0V220M240 0V220M300 0V220M360 0V220M420 0V220M480 0V220M540 0V220M600 0V220M660 0V220M720 0V220M780 0V220M840 0V220M900 0V220M960 0V220M1020 0V220M1080 0V220M1140 0V220M1200 0V220M1260 0V220"/>
+      </g>
+    </g>
+
+    <!-- HUD -->
+    <text x="34" y="36" class="hud">MISSION</text>
+    <text x="106" y="36" class="hudx">NAV2 / WAYPOINT FOLLOW</text>
+    <text x="1166" y="36" class="hud" text-anchor="end">
+      <tspan>ODOM LOCK</tspan>
+    </text>
+    <circle cx="1176" cy="32" r="4" fill="#48e6a7">
+      <animate attributeName="opacity" values="1;0.2;1" dur="1.4s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- ground -->
+    <line x1="0" y1="176" x2="1200" y2="176" stroke="#2a3d46" stroke-width="2"/>
+    <line x1="0" y1="176" x2="1200" y2="176" stroke="#48e6a7" stroke-width="2" stroke-dasharray="14 26" opacity="0.55">
+      <animate attributeName="stroke-dashoffset" values="0;-40" dur="1.2s" repeatCount="indefinite"/>
+    </line>
+
+    <!-- waypoints -->
+    <g fill="none" stroke="#6bb8ff" stroke-width="1.6" opacity="0.8">
+      <path d="M220 168l7 8-7 8-7-8z"/>
+      <path d="M520 168l7 8-7 8-7-8z"/>
+      <path d="M820 168l7 8-7 8-7-8z"/>
+      <path d="M1080 168l7 8-7 8-7-8z"/>
+    </g>
+
+    <!-- rover: one pass across the full width, seamless loop -->
+    <g>
+      <animateTransform attributeName="transform" type="translate" from="-220 176" to="1420 176" dur="13s" repeatCount="indefinite"/>
+
+      <!-- shadow -->
+      <ellipse cx="0" cy="4" rx="92" ry="7" fill="#000000" opacity="0.45"/>
+
+      <!-- suspension bounce for the whole robot body -->
+      <g transform="scale(1.12)">
+      <g>
+        <animateTransform attributeName="transform" type="translate" values="0 0;0 -2.5;0 0;0 -1.5;0 0" dur="0.9s" repeatCount="indefinite"/>
+
+        <!-- wheels -->
+        <g stroke="#48e6a7" stroke-width="2" fill="#0c141a">
+          <g transform="translate(-52 -16)">
+            <circle r="16"/>
+            <g>
+              <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="0.85s" repeatCount="indefinite"/>
+              <path d="M0 -11V11M-11 0H11M-8 -8L8 8M8 -8L-8 8" stroke-width="1.6" opacity="0.75"/>
+            </g>
+            <circle r="4" fill="#48e6a7" stroke="none"/>
+          </g>
+          <g transform="translate(0 -16)">
+            <circle r="14"/>
+            <g>
+              <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="0.85s" repeatCount="indefinite"/>
+              <path d="M0 -9V9M-9 0H9M-6 -6L6 6M6 -6L-6 6" stroke-width="1.6" opacity="0.7"/>
+            </g>
+          </g>
+          <g transform="translate(52 -16)">
+            <circle r="16"/>
+            <g>
+              <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="0.85s" repeatCount="indefinite"/>
+              <path d="M0 -11V11M-11 0H11M-8 -8L8 8M8 -8L-8 8" stroke-width="1.6" opacity="0.75"/>
+            </g>
+            <circle r="4" fill="#48e6a7" stroke="none"/>
+          </g>
+        </g>
+
+        <!-- chassis -->
+        <rect x="-74" y="-56" width="148" height="34" rx="9" fill="url(#rBody)" stroke="#3c8f77" stroke-width="2"/>
+        <rect x="-64" y="-49" width="42" height="8" rx="4" fill="#6bb8ff" opacity="0.6"/>
+        <circle cx="46" cy="-45" r="3.5" fill="#48e6a7">
+          <animate attributeName="opacity" values="0.2;1;0.2" dur="1s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="58" cy="-45" r="3.5" fill="#6bb8ff">
+          <animate attributeName="opacity" values="1;0.2;1" dur="1s" begin="0.3s" repeatCount="indefinite"/>
+        </circle>
+
+        <!-- mast + LiDAR with sweeping scan -->
+        <path d="M-46 -56V-88" stroke="#3c8f77" stroke-width="4" stroke-linecap="round"/>
+        <g transform="translate(-46 -96)">
+          <g>
+            <animateTransform attributeName="transform" type="rotate" values="-55;55;-55" dur="2.6s" repeatCount="indefinite"/>
+            <path d="M0 0L64 -30L64 30Z" fill="url(#rCone)"/>
+            <path d="M0 0L70 0" stroke="#48e6a7" stroke-width="1.2" opacity="0.7" stroke-dasharray="4 6">
+              <animate attributeName="stroke-dashoffset" values="0;-20" dur="0.6s" repeatCount="indefinite"/>
+            </path>
+          </g>
+          <circle r="9" fill="#0c141a" stroke="#48e6a7" stroke-width="2"/>
+          <circle r="3" fill="#48e6a7" filter="url(#rGlow)"/>
+        </g>
+
+        <!-- articulated manipulator -->
+        <g transform="translate(34 -56)">
+          <g>
+            <animateTransform attributeName="transform" type="rotate" values="-28;-72;-40;-28" dur="4.4s" repeatCount="indefinite"/>
+            <path d="M0 0L0 -46" stroke="#6bb8ff" stroke-width="7" stroke-linecap="round"/>
+            <circle r="5" fill="#0c141a" stroke="#6bb8ff" stroke-width="2.5"/>
+            <g transform="translate(0 -46)">
+              <g>
+                <animateTransform attributeName="transform" type="rotate" values="46;96;58;46" dur="4.4s" repeatCount="indefinite"/>
+                <path d="M0 0L0 -40" stroke="#48e6a7" stroke-width="6" stroke-linecap="round"/>
+                <circle r="4.5" fill="#0c141a" stroke="#48e6a7" stroke-width="2.5"/>
+                <g transform="translate(0 -40)">
+                  <g>
+                    <animateTransform attributeName="transform" type="rotate" values="0;-26;10;0" dur="4.4s" repeatCount="indefinite"/>
+                    <path d="M-8 0L-8 -12M8 0L8 -12" stroke="#eef8fa" stroke-width="3.5" stroke-linecap="round">
+                      <animate attributeName="d" values="M-8 0L-8 -12M8 0L8 -12;M-3 0L-3 -12M3 0L3 -12;M-8 0L-8 -12M8 0L8 -12" dur="2.2s" repeatCount="indefinite"/>
+                    </path>
+                    <circle r="4" fill="#0c141a" stroke="#eef8fa" stroke-width="2"/>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      </g>
+    </g>
+
+    <!-- dust trail -->
+    <g fill="#48e6a7" opacity="0.35">
+      <circle cx="0" cy="172" r="2">
+        <animate attributeName="cx" values="-160;1420" dur="13s" repeatCount="indefinite"/>
+        <animate attributeName="cy" values="172;160;172" dur="1.6s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.5;0;0.5" dur="1.6s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="0" cy="172" r="1.6">
+        <animate attributeName="cx" values="-190;1390" dur="13s" repeatCount="indefinite"/>
+        <animate attributeName="cy" values="172;156;172" dur="2.1s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.4;0;0.4" dur="2.1s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <text x="34" y="204" class="hud">ROS 2 • NAV2 • CANOPEN • EKF • OPENCV</text>
+    <text x="1166" y="204" class="hud" text-anchor="end">STATUS: DEPLOYED, NOT SIMULATED</text>
+  </g>
+
+  <!-- signal pulse running the whole perimeter -->
+  <use href="#rPerimeter" fill="none" stroke="#48e6a7" stroke-width="2" stroke-opacity="0.85"
+       stroke-dasharray="180 2600" filter="url(#rGlow)">
+    <animate attributeName="stroke-dashoffset" values="0;-2780" dur="6s" repeatCount="indefinite"/>
+  </use>
+  <use href="#rPerimeter" fill="none" stroke="#6bb8ff" stroke-width="2" stroke-opacity="0.6"
+       stroke-dasharray="90 2690" filter="url(#rGlow)">
+    <animate attributeName="stroke-dashoffset" values="-1390;-4170" dur="6s" repeatCount="indefinite"/>
+  </use>
+</svg>
