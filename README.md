@@ -1,13 +1,8 @@
-<!-- ───────────────────────────── HERO ───────────────────────────── -->
+<h1 align="center">Prabal Khare</h1>
 
 <p align="center">
-  <a href="https://prabalkhare.com">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="./dark.svg">
-      <source media="(prefers-color-scheme: light)" srcset="./light.svg">
-      <img src="./dark.svg" alt="Prabal Khare — Robotics Engineer" width="100%">
-    </picture>
-  </a>
+  <strong>Autonomous systems • perception • embedded control</strong><br>
+  <sub>Building robotic systems that move beyond simulation and into deployment.</sub>
 </p>
 
 <p align="center">
@@ -22,14 +17,6 @@
   </a>
 </p>
 
-<!-- ──────────────────────────── ROVER ──────────────────────────── -->
-
-<p align="center">
-  <a href="https://prabalkhare.com">
-    <img src="./rover.svg" alt="Autonomous rover driving across the banner with a sweeping LiDAR and articulated arm" width="100%">
-  </a>
-</p>
-
 <!-- ─────────────────────────── TERMINAL ────────────────────────── -->
 
 <p align="center">
@@ -38,20 +25,13 @@
   </a>
 </p>
 
-<!-- ─────────────────────────── FEATURED ────────────────────────── -->
+<!-- ──────────────────────────── ROVER ──────────────────────────── -->
 
-### Featured work
-
-| Project | What it is | Stack |
-| --- | --- | --- |
-| **[RosScope](https://github.com/00PrabalK00/RosScope)** | Oscilloscope-style live debugging for ROS 2 topics and diagnostics | C++ · Qt 6 · ROS 2 |
-| **[OpenRosWarehouse](https://github.com/00PrabalK00/OpenRosWarehouse)** | Warehouse autonomy stack for UGV missions, Nav2 and shelf workflows | ROS 2 · Nav2 · LiDAR |
-| **[next_EKF](https://github.com/00PrabalK00/next_EKF)** | Odom + IMU fusion after Allan variance analysis of the IMU noise model | ROS 2 · Sensor fusion |
-| **[Project MIRA](https://github.com/00PrabalK00/Project_MIRA_Details)** | AUV control and perception — 2nd place, TAC Norway 2024 | ROS · OpenCV · AUV |
-| **[Continuum](https://github.com/00PrabalK00/Continuum)** | Local shared memory and controlled workflows for AI coding agents | Python · MCP |
-| **[prabalk.dev](https://github.com/00PrabalK00/prabalk.dev)** | Portfolio — a scroll-driven 3D flight through the robots I have built | Next.js 16 · R3F |
-
-<sub>Everything else lives in [all repositories](https://github.com/00PrabalK00?tab=repositories).</sub>
+<p align="center">
+  <a href="https://prabalkhare.com">
+    <img src="./rover.svg" alt="Autonomous rover driving across the banner with a sweeping LiDAR and articulated arm" width="100%">
+  </a>
+</p>
 
 <!-- ──────────────────────────── STACK ──────────────────────────── -->
 
