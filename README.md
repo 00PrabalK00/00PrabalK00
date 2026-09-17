@@ -17,46 +17,11 @@
   </a>
 </p>
 
-<!-- ─────────────────────────── TERMINAL ────────────────────────── -->
-
-<p align="center">
-  <a href="https://github.com/00PrabalK00?tab=repositories">
-    <img src="./terminal.svg" alt="Terminal cycling through Prabal Khare's robotics repositories" width="100%">
-  </a>
-</p>
-
-<!-- ──────────────────────────── ROVER ──────────────────────────── -->
-
 <p align="center">
   <a href="https://prabalkhare.com">
     <img src="./rover.svg" alt="Autonomous rover driving across the banner with a sweeping LiDAR and articulated arm" width="100%">
   </a>
 </p>
-
-<!-- ──────────────────────────── STACK ──────────────────────────── -->
-
-<p align="center">
-  <img src="https://img.shields.io/badge/ROS%202-22314E?style=flat-square&logo=ros&logoColor=white" alt="ROS 2">
-  <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/Nav2-2ea043?style=flat-square" alt="Nav2">
-  <img src="https://img.shields.io/badge/CANopen-1f6feb?style=flat-square" alt="CANopen">
-  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="OpenCV">
-  <img src="https://img.shields.io/badge/Jetson-76B900?style=flat-square&logo=nvidia&logoColor=white" alt="Jetson">
-  <img src="https://img.shields.io/badge/Linux-000000?style=flat-square&logo=linux&logoColor=white" alt="Linux">
-</p>
-
-<!-- ──────────────────────────── SNAKE ──────────────────────────── -->
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/00PrabalK00/00PrabalK00/output/snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/00PrabalK00/00PrabalK00/output/snake-light.svg">
-    <img src="https://raw.githubusercontent.com/00PrabalK00/00PrabalK00/output/snake-dark.svg" alt="Snake eating my contribution graph" width="100%">
-  </picture>
-</p>
-
-<!-- ──────────────────────────── FOOTER ─────────────────────────── -->
 
 <p align="center">
   <a href="https://prabalkhare.com"><b>prabalkhare.com</b></a>
@@ -65,7 +30,7 @@
   &nbsp;·&nbsp;
   <a href="mailto:prabalkhareofficial@gmail.com">Email</a>
   &nbsp;·&nbsp;
-  <a href="https://github.com/00PrabalK00?tab=repositories">All repositories</a>
+  <a href="https://github.com/00PrabalK00?tab=repositories">Repositories</a>
 </p>
 
 <p align="center">
